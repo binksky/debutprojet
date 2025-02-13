@@ -1,0 +1,17 @@
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Optionnel : ajoute un fond translucide */
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgba(212, 20, 20, 0.7); /* Optionnel : ajoute un fond translucide */
+}
