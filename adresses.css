@@ -76,7 +76,7 @@ input[type="submit"]:hover {
 
 /* Style du bouton de sélection */
 .choose-button {
-    background-color: #34495e; /* Couleur sombre */
+   
     color: white; /* Couleur du texte blanc */
     border: none; /* Pas de bordure */
     border-radius: 4px; /* Coins arrondis */
