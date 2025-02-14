@@ -12,13 +12,13 @@ ul{
     gap: 25px;  /*Ajoute un espace de 15px entre chaque élément*/
     padding: 35px; /* Ajoute un peu d’espace autour de la liste */
 }
-a{
+ a {
     text-decoration: none; /* Supprime le soulignement des liens */
     color: #EE1111;
-}
+ }
 .entete{
-    background-color: #554343;
-    padding: 35px;
+        background-color: #554343;
+        padding: 35px;
 }
 body{
     background-color: #6C4343;
@@ -27,4 +27,25 @@ body{
     font-size: 3em;
     text-align: center;
     color: black;
+}
+.projet{
+    display: flex;
+    justify-content: space-around; /* Espace entre les rectangles */
+    align-items: center;
+    padding-top: 0px; /* Ajuster la hauteur */
+}
+.rectangle {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(118, 69, 69);
+    margin: 30px;
+    border: 2px solid black; /* bordure du carré */
+}
+h4{
+    text-align: center;
+    color: black;
+}
+.centre{
+    color: black;
+    padding: 80px;
 }
