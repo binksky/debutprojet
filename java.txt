@@ -11,6 +11,7 @@ console.log(typeof newVariable);
 const monPrenom = 'gaetan';
 console.log =('mon Prenom est ${monPrenom}.');
 
+//fait le 15/04/2025 a 20h
 let sale = true;
 
 sale = false;
