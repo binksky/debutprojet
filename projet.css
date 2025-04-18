@@ -14,14 +14,14 @@ ul{
 }
  a {
     text-decoration: none; /* Supprime le soulignement des liens */
-    color: #EE1111;
+    color: #FFFFFF;
  }
 .entete{
-        background-color: #554343;
+        background-color: #CE6163;
         padding: 35px;
 }
 body{
-    background-color: #6C4343;
+    background-color: #FFFFFF;
 }
 .centered-text {
     font-size: 4em;
