@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation globale */
+.entete ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding: 35px;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.entete {
+    background-color: #CE6163;
+    padding: 35px;
+}
+
+/* Police déclarée explicitement pour être identique sur toutes les pages */
+body {
+    background-color: #FFFFFF;
+}
+
+/* Titre principal aligné sur E5 (3em) */
+.centered-text {
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Section Présentation sur Profils */
+.presentation-section {
+    text-align: center;
+    margin: 0 auto 40px auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.presentation-section h2 {
+    font-size: 2em;
+    color: #CE6163;
+    margin-bottom: 15px;
+}
+
+.presentation-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Disposition des cartes */
+.projet {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.rectangle {
+    width: 380px;
+    min-height: 320px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    padding: 25px 20px;
+}
+
+/* Titres des cartes en noir comme E5 */
+h4 {
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Contenu des puces */
+.contenu-card ul {
+    display: block;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: black;
+}
+
+.contenu-card li {
+    margin-bottom: 12px;
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: black;
+}
+
+/* Bouton CV */
+.bouton-container {
+    text-align: center;
+    margin: 40px 0 60px 0;
+}
+
+.btn-cv {
+    display: inline-block;
+    background-color: #CE6163;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.btn-cv:hover {
+    background-color: #b04e50;
+}

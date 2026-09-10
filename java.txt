@@ -1,0 +1,128 @@
+const myName = 'gaetan';
+const myCity = 'Paris';
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`) // ` se ne sont pas des guillemets ce sont des backticks sur le 7 (ALTGR + 7) les guillemets ne marche pas
+
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable);
+
+newVariable = 1;
+console.log(typeof newVariable);
+
+const monPrenom = 'gaetan';
+console.log =('mon Prenom est ${monPrenom}.');
+
+//fait le 15/04/2025 a 20h
+let sale = true;
+
+sale = false;
+
+if(sale) {
+  console.log('Time to buy!');
+}
+else {
+  console.log('Time to wait for a sale.');
+}
+
+let hungerLevel = 7;
+
+if (hungerLevel > 7) {
+  console.log('Time to eat!');
+} else {
+  console.log('We can eat later!');
+};
+
+let mood = 'sleepy';
+let tirednessLevel = 6;
+
+if (mood === 'sleepy' && tirednessLevel > 8){
+  console.log('time to sleep');}
+  else{
+    console.log('not bed time yet');
+  }
+
+let excited = true;
+console.log(!excited); // Prints false
+
+let sleepy = false;
+console.log(!sleepy); // Prints true
+
+let wordCount = 5;
+
+if (wordCount) {
+  console.log("Great! You've started your work!");
+} else {
+  console.log('Better get to work!');
+}
+
+
+let favoritePhrase = '';
+
+if (favoritePhrase) {
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');
+}
+
+let athleteFinalPosition = 'first place';
+
+switch(athleteFinalPosition){
+  case 'first place':
+    console.log('You get the gold medal!');
+    break;
+  case 'second place':
+    console.log('You get the silver medal!');
+    break;
+  case 'third place':
+    console.log('You get the bronze medal!');
+    break;
+  default:
+    console.log('No medal awarded.');
+    break;
+}
+
+function getReminder() {
+  console.log('Water the plants');
+}
+
+function greetInSpanish() {
+  console.log('Buenas tardes.')
+}
+
+function sayThanks(){
+  console.log('Thank you for your purchase! We appreciate your business.');
+}
+ sayThanks();
+ sayThanks();
+ sayThanks();
+
+function sayThanks(name) {
+  console.log('Thank you for your purchase ' + name + '! We appreciate your business.');
+}
+
+sayThanks('Cole');
+
+function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs'){
+  console.log(`Remember to buy ${item1}`);
+  console.log(`Remember to buy ${item2}`);
+  console.log(`Remember to buy ${item3}`);
+}
+
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+
+const numOfMonitors = monitorCount(5, 4);
+
+console.log(numOfMonitors);
+
+function monitorCount2(rows, columns) {
+  return rows * columns;
+}
+
+function costOfMonitors2(rows, columns){
+  return monitorCount(rows, columns) * 200;
+}
+
+const totalCost = costOfMonitors2(5, 4);
+
+console.log(totalCost);
